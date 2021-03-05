@@ -1,0 +1,396 @@
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Bodoni Moda', sans-serif;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #121217;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.header__inner {
+    display: flex;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__logo1 {
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.header__logo1::before {
+    content: '\13F0';
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__item {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header__logo {
+    margin-left: 40px;
+    color: #bfc7d0;
+    font-size: 16px;
+    line-height: 70px;
+}
+
+.header__loggin {
+    margin-left: auto;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header__btn__inner {
+    margin-right: 12px;
+    padding: 11px 20px;
+    border: 1px solid#5056E5;
+    background: transparent;
+    border-radius: 8px;
+}
+
+.header__btn__inner.header__btn__inner:hover {
+    color: white;
+    background: #5056e0;
+}
+
+.header__btn__login {
+    color: #bfc7d0;
+    font-family: 'Bodoni Moda', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home {
+    background: linear-gradient(#17171E, #2C2C3C)
+}
+
+.home__page__section {
+    padding: 80px 0 120px;
+}
+
+.home__title {
+    color: white;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+}
+
+.home__text {
+    margin: 0;
+    font-size: 54px;
+}
+
+.home__p {
+    color: #bfc7d0;
+    font-size: 24px;
+}
+
+.home__page__tiles__item {
+    display: flex;
+    max-width: 1505px;
+    margin: 0 auto;
+}
+
+.home__page__img {
+    transition: 1s;
+}
+
+.home__page__img:hover {
+    transform: scale(1.1);
+}
+
+.home__page__img {
+    max-width: 223px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    margin: 0 15px 0 15px;
+    border-radius: 9px;
+    max-height: 380px;
+}
+
+.home__img6 {
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.home__page__descr {
+    padding: 25px;
+    height: 170px;
+}
+
+.home__page__descr__title {
+    font-size: 14px;
+}
+
+.description {
+    background: linear-gradient(#17171E, #2C2C3C);
+    padding: 80px 0 80px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.descr__box {
+    margin-top: 70px;
+    display: flex;
+}
+
+.descr__title {
+    max-width: 700px;
+    line-height: 38px;
+    margin: 0 auto;
+}
+
+.descr__how {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0 0px 10px 20px;
+}
+
+.descr__container__item2 {
+    max-width: 380px;
+    text-align: left;
+    min-width: 379px;
+    margin-right: 60px;
+}
+
+.descr__btn__inner {
+    max-height: 50px;
+    font-size: 18px;
+    color: #bfc7d0;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.descr__btn__inner:hover {
+    color: white;
+    background: linear-gradient(#242434, #14141B);
+}
+
+.descr__btn__inner:active {
+    background: white;
+    transition: 99s;
+}
+
+.descr__container__item1 {
+    font-size: 15px;
+    color: #bfc7d0;
+    line-height: 25px;
+    text-align: left;
+}
+
+.container__button__btn {
+    font-size: 16px;
+    background: #5056E5;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    border: transparent;
+    padding: 10px 20px;
+}
+
+.price {
+    background: linear-gradient(#121218, #22222e, #2b2b3b);
+    padding: 30px 0 40px;
+}
+
+.price__inner {
+    color: white;
+    font-size: 46px;
+    text-align: center;
+}
+
+.home__p {
+    text-align: left;
+    line-height: 30px;
+}
+
+.price__item__inner {
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    color: #bfc7d0;
+}
+
+.price__item {
+    max-width: 430px;
+    padding: 0 20px;
+    margin: 20px 0 20px 0;
+}
+
+.price__img {
+    margin: 0 35px 40px 35px;
+}
+
+.preci__text {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.price__par {
+    margin: 0%;
+}
+
+.price__link {
+    color: #5056e0;
+    font-size: 21px;
+}
+
+.client {
+    background: linear-gradient(#141419, #1c1c25, #2d2d3d);
+    padding: 80px 0 80px;
+}
+
+.btc {
+    max-width: 500px;
+    max-height: 668px;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 60px;
+    min-height: 660px;
+}
+
+.client__background {
+    background: no-repeat, center, url(https://backendless.com/wp-content/uploads/2019/03/Educators-International-Featured-Image.png);
+    background-size: cover;
+}
+
+.client__educators {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.client__par {
+    margin: 0%;
+}
+
+.client__item__logo img {
+    max-width: 120px;
+}
+
+.client__background2 {
+    background: no-repeat, center, url(https://backendless.com/wp-content/uploads/2019/03/Android.jpg);
+    background-size: cover;
+}
+
+.client__background3 {
+    background: no-repeat, center, url(https://backendless.com/wp-content/uploads/2019/03/bitcoin-3089728_1280-e1563803598302.jpg);
+    background-size: cover;
+}
+
+.client__item__inner {
+    min-height: 660px;
+    max-height: 668px;
+}
+
+.client__title {
+    color: #bfc7d0;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+.client__title h2 {
+    text-align: center;
+    font-size: 46px;
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+.news {
+    background: linear-gradient(#141419, #21212c, #2d2d3d);
+}
+
+.news__content {
+    display: flex;
+}
+
+.news__content__item {
+    padding: 0 20px;
+}
+
+.news__link {
+    color: white;
+    font-size: 24px;
+}
+
+.news_par {
+    color: #bfc7d0;
+    font-size: 18px;
+}
+
+.news_background {
+    width: 390px;
+    height: 234px;
+    margin: 10px 0 10px;
+    background: no-repeat, center, url(https://backendless.com/wp-content/uploads/2021/02/No-Code-Checklist-Feature-Backendless-600x389.png);
+    background-size: cover;
+}
+
+.news_background2 {
+    width: 390px;
+    height: 234px;
+    margin: 10px 0 10px;
+    background: no-repeat, center, url(https://backendless.com/wp-content/uploads/2021/01/Annual-Cloud-Pricing-Plan-Feature-600x388.png);
+    background-size: cover;
+}
+
+.news_background3 {
+    width: 390px;
+    height: 234px;
+    margin: 10px 0 10px;
+    background: no-repeat, center, url(https://backendless.com/wp-content/uploads/2021/01/deceptive-site-ahead-600x325.png);
+    background-size: cover;
+}
+
+.footer {
+    padding: 80px 0 80px;
+    background: #121217;
+    color: white;
+    text-align: center;
+    font-size: 56px;
+}
